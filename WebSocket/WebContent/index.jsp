@@ -15,7 +15,7 @@ String socPath="ws://"+request.getServerName()+":"+request.getServerPort()+path+
 		var name = $("#name").val();
 		name =name.replace(/\s/g,'');
 	 	if(name==""){
-			alert("取名啊，瞎点个鸡巴毛");
+			alert("请随便取个名字");
 		 	return false;
 		 }
 	 	window.location.href="NewFile.jsp?name="+name; 
